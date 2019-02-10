@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DevSlopes Radio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="it_s_friday_evening">It\'s Friday Evening</string>
+    <string name="play_something_for">Play something for…</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="recently_played_or_added">Recently played or added</string>
+</resources>

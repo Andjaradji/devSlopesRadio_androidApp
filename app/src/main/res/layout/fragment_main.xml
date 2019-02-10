@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rds.andjaradji.devslopesradio.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="12dp"
+                android:text="@string/it_s_friday_evening"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/play_something_for"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <FrameLayout
+                android:id="@+id/fragmentTopContainerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="12dp"
+                android:text="@string/recent_activity"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"/>
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/recently_played_or_added"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <FrameLayout
+                android:id="@+id/fragmentMidContainerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="12dp"
+                android:text="@string/it_s_friday_evening"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/play_something_for"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <FrameLayout
+                android:id="@+id/fragmentBottomContainerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
